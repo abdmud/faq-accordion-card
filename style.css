@@ -19,9 +19,25 @@
     font-family: 'Kumbh Sans', sans-serif;
     width: auto;
  }
+ .page {
+    display: flex;
+    justify-content: center;
+ }
+ .image {
+    border: solid 1px blue;
+    padding: 2% 2%;
+    width: auto;
+ }
+ .woman-image {
+    position: relative;
+ }
+ .box-image {
+    position: absolute;
 
+ }
  .accordion {
     border: solid 1px red;
+    width: 40%;
  }
  .faq {
     display: flex;
@@ -36,11 +52,11 @@
     margin-top: -2%;
     width: 10px;
     height: 10px;
+    cursor: pointer;
  }
 
  .up-icon {
     transform: rotate(180deg);
-    display: none;
  }
 
  .hidden {
