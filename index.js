@@ -4,7 +4,7 @@ const dropDown = document.querySelectorAll(".down-icon")
 const upIcon = document.querySelectorAll(".up-icon")
 
 
-const ans1 = document.querySelector(".ans1")           /* P element */
+const ans1 = document.querySelector(".ans1")
 const up1 = document.querySelector(".up-1")
 const down1 = document.querySelector(".down-1")
 

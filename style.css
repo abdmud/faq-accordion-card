@@ -18,26 +18,35 @@
  body {
     font-family: 'Kumbh Sans', sans-serif;
     width: auto;
+    background-image: linear-gradient(to right, var(--softViolet), var(--softBlue));
  }
  .page {
     display: flex;
     justify-content: center;
  }
  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: solid 1px blue;
     padding: 2% 2%;
     width: auto;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
  }
  .woman-image {
-    position: relative;
+    width: fit-content;
  }
  .box-image {
-    position: absolute;
-
+    width: fit-content;
  }
  .accordion {
     border: solid 1px red;
     width: 40%;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
  }
  .faq {
     display: flex;
