@@ -24,6 +24,7 @@
     display: flex;
     justify-content: center;
     min-height: 80vh;
+    margin-top: 5%;
  }
  .image {
     display: flex;
@@ -36,15 +37,9 @@
     background-position: 140% 90%;
     background-repeat: no-repeat;
  }
- .woman-image {
-    width: 80%;
-    height: 60%;
-    margin-right: 5%;
-    padding-top: 10%;
-    margin-left: 5%;
- }
+
  .box-image {
-    height: 150px;
+    width: 600px;
     margin-left: -10%;
  }
  .accordion {
