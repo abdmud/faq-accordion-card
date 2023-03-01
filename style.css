@@ -28,7 +28,6 @@
  }
  .image {
     display: flex;
-    border: solid 1px blue;
     width: auto;
     background-color: white;
     border-bottom-left-radius: 10px;
@@ -43,7 +42,6 @@
     margin-left: -10%;
  }
  .accordion {
-    border: solid 1px red;
     width: 40%;
     background-color: white;
     border-top-right-radius: 10px;
@@ -93,9 +91,15 @@
     .accordion {
         width: 90%;
         border-radius: 10px;
+        padding-top: 30%;
     }
     .image {
-        display: none;
+        width: 200px;
+        border-radius: 10px;
+        background-color: transparent;
+        z-index: 1;
+        position: relative;
+        margin-bottom: -20%;
     }
     .box-image {
         margin: 0;
