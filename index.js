@@ -1,7 +1,4 @@
-const faqTitle = document.querySelector(".faq-title")
-const faqAnswer = document.querySelectorAll(".faq-text")
-const dropDown = document.querySelectorAll(".down-icon")
-const upIcon = document.querySelectorAll(".up-icon")
+
 
 const faqT1 = document.querySelector(".qa1")
 const ans1 = document.querySelector(".ans1")
