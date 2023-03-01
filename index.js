@@ -1,5 +1,3 @@
-
-
 const faqT1 = document.querySelector(".qa1")
 const ans1 = document.querySelector(".ans1")
 const up1 = document.querySelector(".up-1")
